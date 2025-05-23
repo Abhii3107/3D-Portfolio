@@ -4,7 +4,7 @@ Welcome to my personal portfolio built with modern 3D web technologies using Rea
 
 ## 🌐 Live Demo
 
-https://3d-react-portfolio-one.vercel.app/
+https://3-d-portfolio-tan-nu.vercel.app/
 
 ## 📌 Introduction
 
