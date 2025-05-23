@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="footer text-center">
         <p> 
           &#x3c;&#47;&#x3e; with ❤️ by
-          <a href="https://shinchancode.github.io/3d-react-portfolio/" target="_blank">
+          <a href="" target="_blank">
             {" "}
-            Aarti Rathi
+           Abhay Singh
           </a>
-          😎
+          😊
         </p>
-        <p className="pink-text-gradient">No. of Visitors | <img className="visitcounter" src="https://hitwebcounter.com/counter/counter.php?page=9795911&style=0025&nbdigits=5&type=page&initCount=459" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></p>
+        {/* <p className="pink-text-gradient">No. of Visitors | <img className="visitcounter" src="https://hitwebcounter.com/counter/counter.php?page=9795911&style=0025&nbdigits=5&type=page&initCount=459" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></p> */}
 
       </div>
     );

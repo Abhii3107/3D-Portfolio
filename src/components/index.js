@@ -27,4 +27,6 @@ export {
   Profile,
   Footer,
   Achievement,
+
 }
+export { default as Achieve } from "./Achieve";

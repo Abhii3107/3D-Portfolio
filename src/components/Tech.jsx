@@ -12,16 +12,31 @@ const Tech = () => {
     <>
       <motion.div id="tech" variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Tools
+          Skills
         </h2>
       </motion.div>
-    <div className='flex flex-row flex-wrap justify-center gap-4'>
+    {/* <div className='flex flex-row flex-wrap justify-center gap-4'>
       {technologies.map((technology) => (
         <div style={{height: '5rem', width: "5rem"}} key={technology.name}>
           <BallCanvas icon={technology.icon} />
         </div>
       ))}
-    </div>
+    </div> */}
+  <div className='flex flex-wrap justify-center gap-6'>
+  {technologies.map((technology) => (
+<div
+  key={technology.name}
+  className="flex flex-col items-center justify-center w-28 h-32"
+>
+  <div className="w-20 h-20 flex justify-center items-center">
+    <BallCanvas icon={technology.icon} />
+  </div>
+  <p className="mt-2 text-sm w-full text-center">{technology.name}</p>
+</div>
+  ))}
+</div>
+
+
     </>
   );
 };

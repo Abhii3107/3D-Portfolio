@@ -30,13 +30,13 @@ const Content = () => {
         >
           <AiOutlineFundProjectionScreen />
         </a>
-        <a
+        {/* <a
           href="#experience"
           onClick={() => setActiveNav("#experience")}
           className={activeNav === "#experience" ? "active" : ""}
         >
           <BsPersonWorkspace />
-        </a>
+        </a> */}
         <a
           href="#contact"
           onClick={() => setActiveNav("#contact")}

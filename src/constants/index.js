@@ -64,6 +64,11 @@ import {
   
   const technologies = [
     {
+  name: "Java",
+  icon: "https://img.icons8.com/color/480/000000/java-coffee-cup-logo.png",
+}
+,
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -79,14 +84,14 @@ import {
       name:"Bootstrap",
       icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
     },
-    {
-      name:"Google Cloud",
-      icon: "https://img.icons8.com/color/480/000000/google-cloud.png",
-    },
-    {
-      name:"C++ tool",
-      icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png",
-    },
+    // {
+    //   name:"Google Cloud",
+    //   icon: "https://img.icons8.com/color/480/000000/google-cloud.png",
+    // },
+    // {
+    //   name:"C++ tool",
+    //   icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png",
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -95,10 +100,16 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
+
+  ,
     {
       name: "Node JS",
       icon: nodejs,
     },
+  {
+ name: "Express Js",
+  icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
+  },
     {
       name: "MongoDB",
       icon: mongodb,
@@ -114,22 +125,22 @@ import {
   ];
 
   const list = [
-    {
-      id: "java",
-      title: "Java",
-    },
-    {
-      id: "c++",
-      title: "C++",
-    },
+    // {
+    //   id: "java",
+    //   title: "Java",
+    // },
+    // {
+    //   id: "c++",
+    //   title: "C++",
+    // },
     {
       id: "web",
       title: "Web Dev",
     },
-    {
-      id: "other",
-      title: "Other",
-    },
+    // {
+    //   id: "other",
+    //   title: "Other",
+    // },
   ];
 
   export const javaProject = [
@@ -357,97 +368,102 @@ import {
         },
       ],
       image: port_3d,
-      source_link: "https://shinchancode.github.io/3d-react-portfolio/",
-      source_code_link: "https://github.com/shinchancode/3d-react-portfolio",
+      // source_link: "https://shinchancode.github.io/3d-react-portfolio/",
+      // source_code_link: "https://github.com/shinchancode/3d-react-portfolio",
+    },
+   {
+  name: "QuickDoc",
+  description:
+    "A MERN full-stack doctor appointment booking platform built with React, Node.js, Express, and MongoDB. It features a modern, responsive UI for patients to easily schedule appointments with doctors, with real-time updates and streamlined navigation.",
+  tags: [
+    {
+      name: "React",
+      color: "green-text-gradient",
     },
     {
-      name: "React portfolio",
-      description:
-        "Website made using React in the FrontEnd, Nodejs and Express in the BackEnd. Responsive webpage is made with user friendly interface",
-      tags: [
-        {
-          name: "nodejs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "React",
-          color: "green-text-gradient",
-        },
-        {
-          name: "html css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: react1,
-      source_link: "https://shinchancode.github.io/React-Portfolio/",
-      source_code_link: "https://github.com/shinchancode/React-Portfolio",
+      name: "Tailwind CSS",
+      color: "blue-text-gradient",
     },
     {
-      name: "30 Days of JavaScript",
-      description:
-        "Website made using Nodejs and Express in the BackEnd. A 30 Days Of JavaScript challenge to learn JavaScript by making 30 different projects using some famous JavaScript libraries.",
-      tags: [
-        {
-          name: "JavaScript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "30dayschallenge",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jsp,
-      source_link: "https://rathi-30-days-of-javascript.onrender.com/",
-      source_code_link: "https://github.com/shinchancode/30-Days-of-Javascript",
+      name: "JavaScript",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: react1,
+  source_link: "https://quick-doc-z61u.vercel.app/",
+  source_code_link: "https://github.com/Abhii3107/Quick_doc",
+}
+
+,
+    {
+  name: "React Weather App",
+  description:
+    "A responsive weather forecast application built using React and Material UI. It fetches real-time weather data from OpenWeatherMap API and displays temperature, humidity, wind, and more in a user-friendly interface.",
+  tags: [
+    {
+      name: "React",
+      color: "green-text-gradient",
     },
     {
-      name: "Chit Chat Application",
-      description:
-        "Real-Time, event based communication in Nodejs and browser-based Chat application. Uses Socket.io for implementation for WebSockets protocol. This application built using Node.js, Express, Socket.io and Render (Hosting)",
-      tags: [
-        {
-          name: "Chatting",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "socket.io",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: chitchat,
-      source_link: "https://chit-chat-app.onrender.com/",
-      source_code_link: "https://github.com/shinchancode/Chit-Chat-Real_time_chat_app",
+      name: "Material UI",
+      color: "blue-text-gradient",
     },
     {
-      name: "Notes Application",
-      description:
-        "A web-based notes app made by using javaScript, This web-based notes app having functionalities like Drag and drop, Search notes etc.",
-      tags: [
-        {
-          name: "notes",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: notes,
-      source_link: "https://shinchancode.github.io/Notes-App/",
-      source_code_link: "https://github.com/shinchancode/Notes-App",
+      name: "OpenWeatherMap API",
+      color: "pink-text-gradient",
     },
+  ],
+  image: jsp,
+  source_link: "https://react-weather-data-app.vercel.app/",
+  source_code_link: "https://github.com/Abhii3107/react-weather-data-app",
+}
+,
+    {
+  name: "Simon Says Game",
+  description:
+    "A fun and interactive memory-based game built using HTML, CSS, and JavaScript. Players must repeat an increasingly complex sequence of colors to progress through levels.",
+  tags: [
+    {
+      name: "JavaScript",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "HTML",
+      color: "green-text-gradient",
+    },
+    {
+      name: "CSS",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: chitchat, // Replace with an actual screenshot of the Simon Says game
+  source_link: "https://abhii3107.github.io/Simon_Says/",
+  source_code_link: "https://github.com/Abhii3107/Simon_Says",
+}
+,
+   {
+  name: "Portfolio Website",
+  description:
+    "A personal portfolio website to showcase my projects, skills, resume, and contact information. Built using HTML, CSS, and JavaScript with a clean and responsive layout.",
+  tags: [
+    {
+      name: "portfolio",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "HTML/CSS",
+      color: "green-text-gradient",
+    },
+    {
+      name: "JavaScript",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: notes, // Replace with a screenshot of your portfolio
+  source_link: "https://abhii3107.github.io/AbhaySingh.Portfolio.io/",
+  source_code_link: "https://github.com/Abhii3107/AbhaySingh.Portfolio.io",
+}
+,
   ];
   
   export const otherProject = [
@@ -634,11 +650,11 @@ import {
     {
       degree: "Bachelor of Engineering",
       branch:
-        "Information Technology",
+        "Computer Science (IOT)",
       marks:
-        "CGPA : 9.42 / 10",
-      name: "Army Institute of Technology Dighi, Pune",
-      year: "(2019 - 2023)",
+        "CGPA : 7.14",
+      name: "Raj Kumar Goel Institute Of Technology,Ghaziabad",
+      year: "(2020 - 2024)",
       image: clg,
     },
     {
@@ -646,21 +662,21 @@ import {
         "12th Grade",
       branch : "Science",
       marks:
-        "Percentage : 89.88 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
-      year: "2018",
+        "Grade : First-Divison",
+      name: "CBSE",
+      year: "2020",
       image: school,
     },
-    {
-      degree:
-        "10th Grade",
-      branch: "SSC",
-      marks:
-        "Percentage : 95 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
-      year: "2016",
-      image: school,
-    },
+    // {
+    //   degree:
+    //     "10th Grade",
+    //   branch: "SSC",
+    //   marks:
+    //     "CGPA : 7",
+    //   name: "D.A.V PUBLIC SCHOOL,RATWAR",
+    //   year: "2017",
+    //   image: school,
+    // },
   ];
   
   export { list, profiles, technologies, experiences, educations, achievements };

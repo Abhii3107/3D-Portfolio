@@ -15,7 +15,7 @@ const Hero = () => {
   const textRef=useRef();
   useEffect(()=>
   {
-    init(textRef.current, { showCursor: true, strings: [' SDE at BNY ', "Zonal Level TT Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
+    init(textRef.current, { showCursor: true, strings: ["Web Developer",'Software Developer ', " Tech Enthusiast ","Learner","Chess Player"] })
   },[]);
 
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
 
         <div className="head2">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hii there, I'm <p className='name text-[#915EFF]'>Aarti Rathi</p>
+            Hii there, I'm <p className='name text-[#915EFF]'>ABHAY SINGH</p>
           </h1>
           <h3>
             <span ref={textRef} className={`${styles.heroSubText} mt-2 green-text-gradient`}></span>
@@ -40,21 +40,21 @@ const Hero = () => {
         
         <div className="absolute link1">        
         <a
-          href="https://github.com/shinchancode" target="_blank">
+          href="https://github.com/Abhii3107" target="_blank">
           <AiOutlineGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/aarti-rathi-a6031814b/" target="_blank">
+          href="https://www.linkedin.com/in/abhaysinghin" target="_blank">
           <ImLinkedin />
         </a>
         <a
-          href="https://www.instagram.com/aarti.rathiii" target="_blank">
+          href="https://www.instagram.com/abhii3107/" target="_blank">
           <AiOutlineInstagram />
         </a>
-        <a
+        {/* <a
           href="https://linktr.ee/rathi17" target="_blank">
           <BiLinkAlt />
-        </a>
+        </a> */}
 
       </div>
 

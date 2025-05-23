@@ -88,20 +88,21 @@ const ProjectCard = ({
 };
 const Project = () => {
 
-  const [selected, setSelected] = useState("java");
+  const [selected, setSelected] = useState("web");
   const [data, setData] = useState([]);
 
   useEffect(() => {
     switch (selected) {
+      case "web":
+        setData(webProject);
+        break;
       case "java":
         setData(javaProject);
         break;
       case "c++":
         setData(cProject);
         break;
-      case "web":
-        setData(webProject);
-        break;
+      
       case "other":
         setData(otherProject);
         break;
