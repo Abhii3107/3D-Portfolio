@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { logo} from "../assets";
+import { logo } from "../assets";
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -32,32 +32,38 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to='/'
-          className='flex items-center gap-2'
+          to="/"
+          className="flex items-center gap-2"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain logo' />
-          <p className='sm:block text-white text-[18px] font-bold cursor-pointer flex '>
-          abhay.singh
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain logo" />
+          <p className="sm:block text-white text-[18px] font-bold cursor-pointer flex ">
+            abhay.singh
           </p>
         </Link>
 
-        <div className='sm:flex gap-5'>
+        <div className="sm:flex gap-5">
           <div
-              className={`top2 ${"text-secondary"
-              } hover:text-white text-[15px] font-medium cursor-pointer`}
+            className={`top2 text-secondary hover:text-white text-[15px] font-medium cursor-pointer`}
+          >
+            <a
+              className="text-white font-medium hover:text-blue-200 transform hover:scale-105 transition duration-200 ease-in-out"
+              href="https://drive.google.com/file/d/1GH5GExZRmOgyweUXdRhMtt1CYlu6Xd5L/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <a href="https://drive.google.com/file/d/1i2rxKQziUKKYDozC42I6uoDeGM05po1Z/view?usp=sharing" target="_blank">Resume</a>
+              Resume
+            </a>
           </div>
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

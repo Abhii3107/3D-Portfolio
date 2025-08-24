@@ -6,7 +6,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 
 import github from "./github.png";
-import demo from "./demo.png"
+import demo from "./demo.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -38,6 +38,7 @@ import cg from "./project/cg.jpg";
 import port_3d from "./project/react.png";
 import jsp from "./project/jsp.png";
 import notes from "./project/notes.png";
+import home from "./project/home.png";
 import chitchat from "./project/chitChat.png";
 import react1 from "./project/react1.png";
 
@@ -45,6 +46,7 @@ import be from "./project/mcq.avif";
 import sql from "./project/sql.jpg";
 import mini from "./project/library.png";
 import snl from "./project/snl.jpeg";
+import qmansys from "./qmansys.jpeg";
 
 export {
   logo,
@@ -62,15 +64,31 @@ export {
   reactjs,
   tailwind,
   threejs,
-  hf,holopin,
+  hf,
+  holopin,
   bny,
   demo,
   clg,
   school,
   crypto,
   aarti,
-  oop,crud,dwld,onetomany,yml,
-  trie,ds,cg,
-  port_3d, jsp, chitchat, notes, react1,
-  be,sql, mini, snl,
+  oop,
+  crud,
+  dwld,
+  onetomany,
+  yml,
+  trie,
+  ds,
+  cg,
+  port_3d,
+  jsp,
+  chitchat,
+  notes,
+  react1,
+  home,
+  be,
+  sql,
+  mini,
+  snl,
+  qmansys,
 };
